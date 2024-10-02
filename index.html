@@ -12,7 +12,21 @@
   <body>
     <h1>Book Survey Form</h1>
     <p>Please fill out this form with the required information about the book you recently read</p>
+    <!--the users input will sent to my email (brandibracker4@gmail.com) using formspree-->
     <form method="post" action="https://formspree.io/f/mzzpnlqb">
+
+        <!--Users Information-->
+        <fieldset>
+            <legend>Your Information</legend>
+            <label for="first-name">First Name: 
+              <input id="first-name" name="first-name" type="text" required />
+            </label>
+            <label for="last-name">Last Name: 
+              <input id="last-name" name="last-name" type="text" required />
+            </label>
+          </fieldset>
+        
+          <!-- Information about the book -->
       <fieldset>
         <label for="book-title">Book Title: 
           <input id="book-title" name="book-title" type="text" required />
@@ -42,8 +56,9 @@
         </select>
       </label>
 
+      <!--where the user will agree to the terms and conditions-->
       <label for="terms-and-conditions">
-        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.termsfeed.com/live/f3179cf3-6e3a-4b90-8871-8d0d73c565e0">terms and conditions</a>
       </label>
       
       <input type="submit" value="Submit" />
