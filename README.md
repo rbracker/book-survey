@@ -11,8 +11,7 @@ Thank you in advance for your time and thoughtfulness!
 
 Below is a video preview showcasing the design and functionality of my [**Book Survey Form**](https://rbracker.github.io/book-survey/) website:
 
-<video controls src="image/BookSurveyFormVideo.mp4" title="image/BookSurveyFormVideo.mp4"></video>" title="Book Survey Form Preview"></video>
-
+<video controls src="image/BookSurveyFormVideo.mp4" title="image/BookSurveyFormVideo.mp4"></video>
 The website features a sleek, dark theme, offering a visually pleasing and easy-on-the-eyes experience. This design is meant to create a comfortable atmosphere for users as they share their book recommendations.
 
 ## Features
