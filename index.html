@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    
+    <meta charset=
+          "UTF-8">
+    <title>Book Survey Form</title>
+    
+    <link rel="stylesheet" href="C:\Users\brand\PersonalProjects\book-survey\assets\style.css" />
+  </head>
+  <body>
+    <h1>Book Survey Form</h1>
+    <p>Please fill out this form with the required information about the book you recently read</p>
+    <form method="post" action="https://formspree.io/f/mzzpnlqb">
+      <fieldset>
+        <label for="book-title">Book Title: 
+          <input id="book-title" name="book-title" type="text" required />
+        </label>
+        <label for="book-author">Book Author: 
+          <input id="book-author" name="book-author" type="text" required />
+        </label>
+        <label for="read-date">Date You Finished Reading: 
+          <input id="read-date" name="read-date" type="date" required />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label for="rating">Rate the Book (out of 5): 
+          <input id="rating" type="number" name="rating" min="1" max="5" required />
+        </label>
+        <label for="review">Share Your Thoughts on the Book:
+          <textarea id="review" name="review" rows="4" cols="40" placeholder="What did you like or dislike about this book?"></textarea>
+        </label>
+      </fieldset>
+      
+      <label for="recommend">
+        Would you recommend this book to others?
+        <select id="recommend" name="recommend">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </label>
+
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
